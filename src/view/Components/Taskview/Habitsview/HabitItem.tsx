@@ -4,7 +4,11 @@ import renderMarkdown from "../markdownRender";
 function HabitItem(props: any) {
     let habit_text = renderMarkdown(props.habit_text);
     let habit_notes = "";
-    if (props.habit_notes) habit_notes = renderMarkdown(props.habit_notes);
+    
+    if (props.habit_notes) {
+        habit_notes = renderMarkdown(props.habit_notes);
+    }
+
     return (
         <div className="habit-item" id={props.id}>
             <div className="habit-button-grp">
