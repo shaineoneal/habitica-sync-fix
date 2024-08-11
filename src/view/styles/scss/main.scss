@@ -1,0 +1,71 @@
+.habitica-header {
+    display: flex;
+
+    .profile-photo-container {
+        border-radius: 100px;
+        background: white;
+        width: 2.5em;
+        height: 2.5em;
+        display: flex !important;
+        justify-content: center;
+        align-self: center;
+        
+        .profile-photo {
+            width: 20px;
+            height: 20px;
+            align-self: center !important;
+        }
+    }
+
+    .profile-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1em;
+        flex-grow: 1;
+
+        .profile-name {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: white;
+        }
+
+        .profile-level-class {
+            font-size: 1em;
+            color: white;
+        }
+    }
+
+    .profile-currency {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.25em;
+
+        .profile-gold-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: right;
+
+            .profile-gold-icon {
+                width: 20px;
+                height: 20px;
+                align-self: center;
+            }
+        }
+
+        .profile-gems-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+            .profile-gems-icon {
+                width: 20px;
+                height: 20px;
+                align-self: left;
+            }
+        }
+
+    }
+}

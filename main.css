@@ -1,0 +1,16 @@
+.habitica-header {
+  display: flex;
+}
+.habitica-header .profile-photo-container {
+  border-radius: 100px;
+  background: white;
+  width: 2.5em;
+  height: 2.5em;
+  display: flex !important;
+  justify-content: center;
+}
+.habitica-header .profile-photo-container .profile-photo {
+  width: 20px;
+  height: 20px;
+  align-self: center !important;
+}

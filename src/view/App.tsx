@@ -4,6 +4,7 @@ import { getStats, scoreTask, makeCronReq, costReward, scoreChecklistItem } from
 import Statsview from "./Components/Statsview"
 import Taskview from "./Components/Taskview"
 import ReactDOM from "react-dom";
+import './styles/scss/main.scss';
 
 class App extends React.Component<any, any> {
     private _username = "";

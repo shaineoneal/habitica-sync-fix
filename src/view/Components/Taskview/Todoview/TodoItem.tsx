@@ -6,6 +6,7 @@ import moment from "moment";
 function TodoItem(props: any) {
     var dueDate = (props.dueDate==null)?"":("Due Date:"+(moment(props.dueDate).format(props.dueDateFormat)));
     var text_html = renderMarkdown(props.todo_text);
+
     var note_html = "";
 
     if (props.todo_notes) {
